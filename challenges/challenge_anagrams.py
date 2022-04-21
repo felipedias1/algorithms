@@ -6,13 +6,14 @@ def is_anagram(first_string, second_string):
     else:
         return False
 
-    
+
 def convert_word_to_numbers(string):
     numbers = []
     for letter in string:
         number = ord(letter) - 96
         numbers.append(number)
     return numbers
+
 
 def sort_list(number_list):
     new_list = []
